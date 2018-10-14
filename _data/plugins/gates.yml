@@ -1,0 +1,9 @@
+gates-list: [prefix]
+
+plugins:
+  prefix:
+    title: 'Variety of Sound - preFix'
+    image: 'plugins/gates/prefix.jpg'
+    description: 'preFIX is a pre-mixing and audio alignment tool which typically takes place upfront the mixing process. It provides a clever tool set to clean-up, fix and align audio tracks (typically taken from recordings) concerning overall frequency correction, phase alignment, spatial stereo field corrections and routing. It contains a complete gate/expander solution with a dedicated and comprehensive sidechain filtering path as well.'
+    url: 'https://varietyofsound.wordpress.com/downloads/'
+    external: true

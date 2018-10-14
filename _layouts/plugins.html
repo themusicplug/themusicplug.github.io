@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+		
+		{% include /about.html %}
+
+        {% include /header.html %}
+		
+		<style>
+			#main {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#080248+0,7a1772+35,ff718f+100 */
+				background: #080248; /* Old browsers */
+				background: -moz-linear-gradient(top, #080248 0%, #7a1772 35%, #ff718f 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #080248 0%,#7a1772 35%,#ff718f 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #080248 0%,#7a1772 35%,#ff718f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080248', endColorstr='#ff718f',GradientType=0 ); /* IE6-9 */
+				background-attachment: fixed;
+			}
+		</style>
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+              <article class="container" style="width: 100%">
+                  <header class="major">
+                      <h2 class="post-title" style="color: #FAFAFA">{{ page.article-title }}</h2>
+                          <p class="post-meta">{% if page.date %} • {{ page.date | date: "%b %-d, %Y" }}{% endif %}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                  </header>
+
+                  <section class="post-content" style="text-align: center">
+                      {{ content }}
+                  </section>
+              </article>
+        </section>
+
+        {% include /footer.html %}
+
+    </body>
+
+</html>

@@ -1,0 +1,30 @@
+<!-- Header -->
+<header id="header" class="skel-layers-fixed">
+	<style>
+		a {
+			color: #616161;
+		}
+		.jslink {
+			cursor: pointer;
+		}
+	</style>
+	
+	<a id="logo" href="{{ site.baseurl }}/" class="site-title"><img src="{{ site.baseurl }}/images/logo/navbar.png"</a>
+    <nav id="nav" style="display: flex; align-items: center">
+		<ul>
+		{% for page in site.data.navbar.navbar-list %}
+			
+			{% if site.data.navbar.navbar[page].javascript == true %}
+				<li><a class="jslink" onclick="{{ site.data.navbar.navbar[page].function }}">{{ site.data.navbar.navbar[page].name }}</a></li>
+			{% else %}
+				{% if site.data.navbar.navbar[page].external == true %}
+					<li><a href="{{ site.data.navbar.navbar[page].url }}">{{ site.data.navbar.navbar[page].name }}</a></li>
+				{% else %}
+					<li><a href="{{ site.baseurl }}/{{ site.data.navbar.navbar[page].url }}">{{ site.data.navbar.navbar[page].name }}</a></li>
+				{% endif %}
+			{% endif %}
+			
+		{% endfor %}
+		</ul>
+    </nav>
+</header>

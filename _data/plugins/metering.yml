@@ -1,0 +1,9 @@
+metering-list: [ozone-imager]
+
+plugins:
+  ozone-imager:
+    title: 'iZotope - Ozone Imager'
+    image: 'plugins/metering/ozone-imager.jpg'
+    description: 'Ozone Imager is a FREE stereo imaging plug-in for your DAW or NLE. Born from Ozone 8’s legendary Imaging technology, Ozone Imager can narrow or widen your stereo image with simple controls, stunning visuals, and incredible sound. Download it today and turn narrow, dull audio into a full, impactful track.'
+    url: 'https://www.izotope.com/en/products/master-and-deliver/ozone/ozone-imager.html'
+    external: true

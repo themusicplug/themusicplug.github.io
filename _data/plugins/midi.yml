@@ -1,0 +1,9 @@
+midi-list: [hookpad]
+
+plugins:
+  hookpad:
+    title: 'Hooktheory - Hookpad'
+    image: 'plugins/midi/hookpad.jpg'
+    description: 'This is actually not a plugin, rather an online app that helps you write melodies and chord progressions: Hookpad is an intelligent musical sketchpad that helps you create amazing chord progressions and melodies.  It has music theory "built-in" to help you find the sound you’re looking for.'
+    url: 'https://www.hooktheory.com/hookpad'
+    external: true

@@ -1,0 +1,9 @@
+distortion-list: [saturation-knob]
+
+plugins:
+  saturation-knob:
+    title: 'Softube - Saturation Knob'
+    image: 'plugins/distortion/saturation-knob.jpg'
+    description: 'Saturation Knob features a single knob for adjusting the amount of saturation and it can work in three different modes, depending on what flavor of saturation you''re looking for. It''s great for warming up sounds to sound more analog.'
+    url: 'https://www.softube.com/index.php?id=news78'
+    external: true

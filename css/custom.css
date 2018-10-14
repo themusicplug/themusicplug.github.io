@@ -1,0 +1,154 @@
+---
+title: CSS stylesheet
+---
+
+#logo img {
+	margin: 0 !important;
+}
+
+.index-logo {
+	opacity: 0.9;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+}
+
+.footer-color {
+  background: #FAFAFA !important;
+  color: #424242 !important;
+}
+
+
+.transparent-bg {
+  background: transparent;
+}
+
+.background-1 {
+  background-color: transparent;
+  background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url('{{ site.baseurl }}/images/pic05.jpg');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#logo {
+	image-rendering: crisp-edges;
+}
+#logo img {
+	image-rendering: crisp-edges;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 3px;
+	color: #F5F5F5;
+	margin: 4px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	transition: transform 0.3s ease;
+	transform: scale(1);
+}
+#logo img:hover {
+	transform: scale(1.05);
+}
+
+.drop-shadow {
+  -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+}
+
+.drop-shadow-subtle {
+	-webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,0.1));
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.1));
+}
+
+.mdl-card-drop-shadow {
+  -webkit-filter: drop-shadow(0 0 5px rgba(0,0,0,0.85));
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.85));
+}
+
+.transp-bg-mdl-title {
+  background-color: rgba(0,0,0,0.25);
+  padding: 2px;
+}
+
+.mdl-card__supporting-text {
+	height: 100px;
+}
+
+#fade-wrapper {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.8);
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	align-items: center;
+}
+
+#about-content {
+	width: 100%;
+	text-align: center;
+}
+#about-content * {
+	color: white !important;
+}
+#about-content p {
+	text-align: left;
+	padding: 0 9vw;
+	font-size: 17px;
+	text-indent: 2vw;
+}
+
+#fade-wrapper #close-button {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 28px;
+    height: 28px;
+    transition: transform .25s ease-in-out;
+	margin: 5px;
+	cursor: pointer;
+}
+#fade-wrapper #close-button:hover {
+    transform: rotate(180deg);
+}
+#fade-wrapper #close-button:before {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 28px;
+    height: 0;
+    border-top: 2.5px solid white;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+#fade-wrapper #close-button:after {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 28px;
+    height: 0;
+    border-top: 2.5px solid white;
+    transform: rotate(-45deg);
+    transform-origin: center;
+}

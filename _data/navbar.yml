@@ -1,0 +1,47 @@
+navbar-list: [samples, tutorials, plugins, daws, presets, communities, music, budget-gear, other-resources, about, submit]
+
+navbar:
+  samples:
+    name: 'Samples'
+    url: 'samples'
+    external: false
+  tutorials:
+    name: 'Tutorials'
+    url: 'tutorials'
+    external: false
+  plugins:
+    name: 'Plugins'
+    url: 'plugins'
+    external: false
+  daws:
+    name: 'DAWs'
+    url: 'daws'
+    external: false
+  presets:
+    name: 'Presets'
+    url: 'presets'
+    external: false
+  communities:
+    name: 'Communities'
+    url: 'communities'
+    external: false
+  music:
+    name: 'Music'
+    url: 'music'
+    external: false
+  budget-gear:
+    name: 'Budget Gear'
+    url: 'budget-gear'
+    external: false
+  other-resources:
+    name: 'Other Resources'
+    url: 'other-resources'
+    external: false
+  about:
+    name: 'About'
+    function: "showAboutPage();"
+    javascript: true
+  submit:
+    name: 'Submit'
+    url: 'submit-page/submit'
+    external: false

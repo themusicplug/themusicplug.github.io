@@ -1,0 +1,78 @@
+.landing-footer-one {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	color: white;
+	font-size: 80%;
+	z-index:3
+}
+
+.landing-footer-two {
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+	position: fixed;
+	bottom: 0;
+	padding: 5px;
+	color: white;
+	font-size: 80%;
+}
+
+.landing-footer-two a {
+	color: white;
+	font-weight: inherit;
+	font-family: Roboto;
+}
+
+.footer-link {
+	font-weight: bold;
+	padding: 0 1px;
+	z-index: 99;
+}
+
+.navbar .container {
+	margin: 0;
+}
+
+.landing-content {
+	width: 100%;
+}
+
+.fa-rotate-45 {
+    transform: rotate(45deg);
+}
+
+.landing-buttons {
+	width: 100%;
+	height: 100%
+}
+
+#landing-logo {
+    background: rgba(0,0,0,0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 3px;
+	color: #F5F5F5;
+	margin: 4px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+
+	transform: rotate(45deg) scale(1);
+
+	transition: background 0.3s ease;
+	transition: color 0.3s ease;
+	transition: transform 0.3s ease;
+}
+
+#landing-logo:hover {
+	background: rgba(10,10,10,0.3);
+	color: #FFF;
+	transform: rotate(45deg) scale(1.05);
+}

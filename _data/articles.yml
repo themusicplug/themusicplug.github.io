@@ -1,0 +1,61 @@
+articles-list: [samples, tutorials, plugins, daws, presets, communities, music, budget-gear, other-resources]
+
+plugins-list: [amplifier, compressor, delay, distortion, filter, gate, limiter, metering, midi, modulation, reverb]
+
+articles:
+  plugins:
+    amplifier:
+      title: 'Amplifiers'
+      image: 'plugins/amplifier.jpg'
+      description: 'Amplifiers boost the signal of an audio signal to make it louder.'
+      url: 'plugins/amplifiers'
+    compressor:
+      title: 'Compressors'
+      image: 'plugins/compressor.jpg'
+      description: 'Compression reduces the dynamic range of audio by reducing the level of the loudest parts.'
+      url: 'plugins/compressors'
+    delay:
+      title: 'Delay'
+      image: 'plugins/delay.jpg'
+      description: 'Delay repeats audio at a decreasing volume each time, creating an echo effect.'
+      url: 'plugins/delay'
+    distortion:
+      title: 'Distortion'
+      image: 'plugins/distortion.jpg'
+      description: 'Distortion is used to alter the sound of instruments, usually by increasing their gain, producing a "fuzzy", "growling", or "gritty" tone.'
+      url: 'plugins/distortion'
+    filter:
+      title: 'Filters'
+      image: 'plugins/filter.jpg'
+      description: 'Filters are used to boost or diminish certain frequency ranges.'
+      url: 'plugins/filters'
+    gate:
+      title: 'Gates'
+      image: 'plugins/gate.jpg'
+      description: 'Gates control the dynamic range of audio by removing anything below or above a certain threshold.'
+      url: 'plugins/gates'
+    limiter:
+      title: 'Limiters'
+      image: 'plugins/limiter.jpg'
+      description: 'Limiters are used to decrease the loudest parts of audio without affecting everything else.'
+      url: 'plugins/limiters'
+    metering:
+      title: 'Metering'
+      image: 'plugins/metering.jpg'
+      description: 'Meters are used to measure different aspects of an audio signal.'
+      url: 'plugins/metering'
+    midi:
+      title: 'MIDI'
+      image: 'plugins/midi.jpg'
+      description: 'These are plugins or programs that output information to a MIDI channel.'
+      url: 'plugins/midi'
+    modulation:
+      title: 'Modulation'
+      image: 'plugins/modulation.jpg'
+      description: 'Modulation plugins control certain parameters over time based on controls within the plugin.'
+      url: 'plugins/modulation'
+    reverb:
+      title: 'Reverb'
+      image: 'plugins/reverb.jpg'
+      description: 'Reverb simulates placing a sound in a reverberant, or echoey space.'
+      url: 'plugins/reverb'

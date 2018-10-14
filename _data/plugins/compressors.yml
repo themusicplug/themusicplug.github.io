@@ -1,0 +1,21 @@
+compressor-list: [ott, rough-rider-2, dcam-freecomp]
+
+plugins:
+  ott:
+    title: 'Xfer - OTT'
+    image: 'plugins/compressors/ott.jpg'
+    description: 'Xfer Records OTT is a free re-creation of a popular aggressive multiband upwards/downwards compressor set-up used by many dubstep and electro producers.'
+    url: 'https://xferrecords.com/freeware/'
+    external: true
+  rough-rider-2:
+    title: 'Audio Damage - Rough Rider 2'
+    image: 'plugins/compressors/roughrider2.jpg'
+    description: 'Rough Rider  2 is a modern compressor with a bit of "vintage" style bite and a uniquely warm sound. Perfect for adding compression effects to your drum buss, it also sounds great with synth bass, clean guitar, and backing vocals. Definitely not an all-purpose compressor, Rough Rider 2 is at its best when used to add pump to rhythmic tracks.'
+    url: 'https://www.audiodamage.com/pages/free-downloads'
+    external: true
+  dcam-freecomp:
+    title: 'FXpansion - DCAM FreeComp'
+    image: 'plugins/compressors/dcam-freecomp.jpg'
+    description: 'DCAM FreeComp is a free plugin for premium circuit-modelled compression. Featuring a realistic model of a classic console bus compressor design, it is intended to gel subgroups and entire mixes together while enhancing punch and definition. It''s also excellent at creative sculpting, taming peaks in individual tracks and creating pumping compression effects with more extreme settings.'
+    url: 'https://www.fxpansion.com/products/dcamfreecomp/'
+    external: true

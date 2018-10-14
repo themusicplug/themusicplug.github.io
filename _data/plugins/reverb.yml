@@ -1,0 +1,9 @@
+reverb-list: [orilriver]
+
+plugins:
+  orilriver:
+    title: 'Denis Tihanov - OrilRiver'
+    image: 'plugins/reverb/orilriver.jpg'
+    description: 'OrilRiver is a free algorithmic stereo reverb that can rival the quality of commercial reverbs. With this plugin it is possible to simulate the reverberation of a small room and great hall. OrilRiver has an intuitive interface thanks to which the user can quickly adjust the desired reverb sound.'
+    url: 'https://www.kvraudio.com/product/orilriver-by-denis-tihanov'
+    external: true

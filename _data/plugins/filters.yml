@@ -1,0 +1,9 @@
+filters-list: [tdr-nova]
+
+plugins:
+  tdr-nova:
+    title: 'Tokyo Dawn Records - TDR Nova'
+    image: 'plugins/filters/tdr-nova.jpg'
+    description: 'NOVA is a parallel dynamic equalizer. Appearing in the familiar layout of a parametric equalizer, each band also includes a full featured dynamics section allowing the processor to cover an impressively wide range of applications. Be it a master lacking density, the drum bus asking for more crispiness, or a sibilance problem in your perfect take: NOVA has an elegant answer.'
+    url: 'https://www.tokyodawn.net/tdr-nova/'
+    external: true

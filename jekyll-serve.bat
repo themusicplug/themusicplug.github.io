@@ -1,0 +1,2 @@
+cd %cd%
+jekyll serve

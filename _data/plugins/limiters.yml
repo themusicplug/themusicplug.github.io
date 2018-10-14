@@ -1,0 +1,9 @@
+limiters-list: [limiter-no6]
+
+plugins:
+  limiter-no6:
+    title: 'vladg/sound - Limiter №6'
+    image: 'plugins/limiters/limiter-no6.jpg'
+    description: 'Limiter №6 is a limiter modules processor. Functions include:<br>&bull; 5 modules: RMS compressor, peak limiter, high-frequency limiter, clipper, true peak limiter<br>&bull; high-quality signal processing to use for mastering purposes<br>&bull; brickwall and soft limiting with different timing settings<br> and more.'
+    url: 'https://vladgsound.wordpress.com/plugins/limiter6/'
+    external: true

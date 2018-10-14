@@ -1,0 +1,9 @@
+modulation-list: [pancake-2]
+
+plugins:
+  pancake-2:
+    title: 'Cableguys - PanCake 2'
+    image: 'plugins/modulation/pancake-2.jpg'
+    description: 'PanCake is a free plugin for most flexible panning modulations. You can construct your own modulation curves. They can be easily drawn using soft or hard control points, thus producing gentle transitions or sharp bends in the waveform. PanCake''s LFO can be beat-synced to your DAW, from a fast 1/128 note modulation up to 32 bars. It can also be set free-running from 0.02 Hz to 5.24 kHz, and can be triggered via MIDI. A precise display of channel left/right volume provides helpful visual control.'
+    url: 'http://www.cableguys.com/pancake.html'
+    external: true

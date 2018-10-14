@@ -1,0 +1,9 @@
+amplifier-list: [lepou-sims]
+
+plugins:
+  lepou-sims:
+    title: 'LePou - Amp Simulations'
+    image: 'plugins/amplifiers/lepou-amp-sims.jpg'
+    description: 'Hybrid amp models based on their well-known real life counterparts. Their collection includes five plugins: Hybrit, Le456, LeCto, LeGion, and LeXtac. To download, use one of the links in the "Amp sim pack" bubble.'
+    url: 'https://lepouplugins.blogspot.com/2015/03/testing-new-high-gain-amp-sims.html'
+    external: true

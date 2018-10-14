@@ -1,0 +1,9 @@
+delay-list: [voxengo-tempo-delay]
+
+plugins:
+  voxengo-tempo-delay:
+    title: 'Voxengo - Tempo Delay'
+    image: 'plugins/delay/voxengo-tempo-delay.jpg'
+    description: 'Tempo Delay is a multi-feature stereo delay plugin for professional sound and music production applications. Tempo Delay is based on tempo, incorporating filter and tremolo sections with separate controls for each stereo channel. Instead of a single "delay length" control this plug-in features separate "delay", "repetition period" and "delay panning" controls which allow you to create an evenly sounding "ping-pong" stereo echoes.'
+    url: 'https://www.voxengo.com/product/tempodelay/'
+    external: true

@@ -1,0 +1,66 @@
+
+* ThrillseekerVBL (!!!!!!!!!!! cannot emphasise enough how fucking incredible this is, it’s goddamn analogue magic in a box !!!!!!!!!!!!)
+* NastyDLA mkII (hands down the best free delay VST - not the lightest but great sounding)
+* NastyVCS
+
+* BootsEQ mkII
+* BaxterEQ 
+* epicVerb (excellent-sounding reverb)
+* TesslaPRO mkII
+* ThrillseekerXTC
+* ThrillseekerLA
+
+* Phuturetone Philteroid - A Sherman Filterbank clone, and it works pretty well for mangling your sounds!
+* Phuturetone Phutura - Alpha Juno-type synth. Solid synth, notably it does Hoover sounds. 
+
+* SQ8L - model of SQ80 wavetable synth, very 80s, sounds wonderful
+* Charlatan - Flexible, lightweight subtractive synth. Good workhorse
+* WOK Plugins - a whole host of great Win32 VSTs here, including a free Shimmer reverb! It’s Donationware for personal reasons of the author
+
+Win32/64 but OSX-32 only
+
+* TAL Dub (I & II - phenomenal dubby delays that work to enhance everything I do. very light, too. Ignore mkIII, it loses the vintage charm and clean delays can be done by stock plugins)
+* TAL U-NO 62 (a free, quality Juno-type synth)
+* Synth1 - a classic for a reason. excellent range of features with a solid 90s sound
+Win/OSX fully compatible
+
+Synths/instruments:
+* ObxD - quality Oberheim-type synth, excellent subtractive workhorse
+* Dexed - DX7-style FM synth, a bit complicated but 1:1 compatibility with DX7 patches and works great, so a lot of possibilities there
+* TAL Nois3maker - Great VA synth, some FM, some modulation detail, great for a lot of tasks
+* u-he TyrellN6 - Well-known, based on Juno, excellent sound, slightly finicky
+* u-he Podolski - VA synth that really comes into its own with Boards of Canada-style pads and leads
+     —> example of Podolski (and Tyrell for the arp) in use: https://clyp.it/uh54ordn?token=b62ba71529f04b098d207d81f5b21fe8
+* u-he Zebralette - Small, but great-sounding wavetable synth that has plenty of options to mess with the wave shape
+* PG-8X - Roland JX-8P emulation. Not perfect, but decent
+* Grace - decent sampler
+* Sforzando - Great .sfz sampler if you have instruments in that format
+* Hyova audio Ribs - absolutely insane granular sampler. Has no feature to save the audio it captures to use at the moment, but the stuff it comes up with is incredibly creative, and it’s in a very nice UI.
+
+
+Effects:
+
+* TAL Reverb 4 - the freeware reverb I use ALL the time. Top notch quality, enough controls to set
+
+* TAL Reverb 4 - the freeware reverb I use ALL the time. Top notch quality, enough controls to set, dial in a bit, and forget, very lightweight too
+* TAL Chorus-LX - Juno-style chorus, on anything, for free!
+* TAL Vocoder - it’s a vocoder, for free
+* Ignite Amps PTEq-X - Pulteq-style EQ that works very well
+* SonEQ - Mastering EQ with drive knob, really high quality
+* TDR Kotelnikov - very useful, flexible quality compressor. not vintage-modelled, but very capable.
+* TDR Nova - dynamic EQ. Ridiculously good for fixing problems, it’s magic
+* TDR SlickEQ - 3-band EQ with some light saturation characteristics, great for bus or mastering EQ to provide polish
+* Klanghelm MJUCjr - great 2-knob vari-mu compressor
+* Klanghelm DC1A - 2-knob character compressor, very capable
+* Klanghelm IVGI - saturation, it’s good
+* Spaceship Delay - the delay to replace the free TAL Dubs until you buy the TAL commercial Dub version
+* W1 Limiter - Free version of Waves L1 basically, it has 1:1 the same output
+* Sonic Anomaly Transient - Great transient shaper with lovely UI. Basically all Sonic Anomaly plugins are useful!
+* Sonic Anomaly Unlimited - Limiter + Maximizer
+* Sonic Anomaly S.LA.X - Free LA-2A-type compressor
+Creative effects: 
+* dblue Glitch - that tape stop you heard in every EDM song, but with way more capabilities. basic step sequenced glitch effects, despite some limitations hugely useful
+* Glitchmachines Hysteresis - Glitchy modulated delay. Fantastic for industrial / experimental music and sound design
+* Glitchmachines Fracture - primarily a buffer glitch plugin, similar applications to Hysteresis. Those two are a beast for creating spooky and otherworldly sounds
+* Audiothing Filterjam - Creative filter/mod effects, really useful to change a sound 
+* Airwindows Pressure4
