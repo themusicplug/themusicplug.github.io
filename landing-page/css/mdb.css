@@ -1704,7 +1704,7 @@ a.text-light:hover, a.text-light:focus {
     height: 100%;
     background-attachment: fixed; }
   .view img, .view video {
-    position: relative;
+    position: fixed;
     display: block; }
   .view video.video-intro {
     z-index: -100;

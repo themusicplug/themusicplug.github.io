@@ -76,3 +76,7 @@
 	color: #FFF;
 	transform: rotate(45deg) scale(1.05);
 }
+
+.view {
+	overflow: auto;
+}

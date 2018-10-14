@@ -13,11 +13,12 @@
 	<!-- Bootstrap core CSS -->
 	<link href="landing-page/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Material Design Bootstrap -->
-	<link href="landing-page/css/mdb.min.css" rel="stylesheet">
+	<link href="landing-page/css/mdb.css" rel="stylesheet">
 	<!-- Your custom styles (optional) -->
-	<link href="landing-page/css/style.min.css" rel="stylesheet">
+	<link href="landing-page/css/style.css" rel="stylesheet">
 	<link href="landing-page/css/custom.css" rel="stylesheet">
 	<link href="css/custom.css" rel="stylesheet">
+	
 
 	{% include /favicon.html %}
 
@@ -41,7 +42,7 @@
 					<!--Video source-->
 					<video class="video-intro" autoplay loop muted>
 						<source src="landing-page/img/video/dj.mp4" type="video/mp4" >
-						</video>
+					</video>
 						<!-- Mask & flexbox options-->
 						<div class="mask rgba-black-light d-flex justify-content-center align-items-center" style="height:100%">
 							<!-- Content -->
@@ -49,22 +50,24 @@
 								<h1 class="mb-4"> <strong>The Music Plug</strong> </h1>
 								<p> <strong>Your free guide to zero-cost music production.</strong> </p>
 								<br>
-								<div class="landing-buttons justify-content-center align-items-center d-inline-block">
-									<a href="{{ site.baseurl }}/samples" class="btn btn-outline-white btn-lg">Samples &nbsp; <i class="far fa-file-audio"></i></a>
-									<a href="plugins" class="btn btn-outline-white btn-lg">Plugins &nbsp; <i class="fas fa-sliders-h"></i></a>
-									<a href="{{ site.baseurl }}/tutorials" class="btn btn-outline-white btn-lg">Tutorials &nbsp; <i class="fas fa-book"></i></a>
-								</div>
-								<div class="landing-buttons justify-content-center align-items-center d-inline-block">
-									<a href="{{ site.baseurl }}/daws-and-tools" class="btn btn-outline-white btn-lg">DAWs/Tools &nbsp; <i class="fas fa-desktop"></i></a>
-									<a href="{{ site.baseurl }}/presets" class="btn btn-outline-white btn-lg">Presets &nbsp; <i class="fas fa-gamepad"></i></a>
-									<a href="{{ site.baseurl }}/communities" class="btn btn-outline-white btn-lg">Communities &nbsp; <i class="fas fa-users"></i></a>
-								</div>
-								<div class="landing-buttons justify-content-center align-items-center d-inline-block">
-									<a href="{{ site.baseurl }}/music" class="btn btn-outline-white btn-lg">Music &nbsp; <i class="fas fa-music"></i></a>
-									<a href="{{ site.baseurl }}/budget-gear" class="btn btn-outline-white btn-lg">Budget Gear &nbsp; <i class="fas fa-headphones-alt"></i></a>
-								</div>
-								<div class="landing-buttons justify-content-center align-items-center d-inline-block" style="margin-top: 2rem">
-									<a href="{{ site.baseurl }}/other-resources" class="btn btn-outline-white btn-lg" style="padding: .5rem">Other Resources &nbsp;<i class="fas fa-share-square"></i></a>
+								<div class="landing-buttons-container">
+									<div class="landing-buttons justify-content-center align-items-center d-inline-block">
+										<a href="{{ site.baseurl }}/samples" class="btn btn-outline-white btn-lg">Samples &nbsp; <i class="far fa-file-audio"></i></a>
+										<a href="plugins" class="btn btn-outline-white btn-lg">Plugins &nbsp; <i class="fas fa-sliders-h"></i></a>
+										<a href="{{ site.baseurl }}/tutorials" class="btn btn-outline-white btn-lg">Tutorials &nbsp; <i class="fas fa-book"></i></a>
+									</div>
+									<div class="landing-buttons justify-content-center align-items-center d-inline-block">
+										<a href="{{ site.baseurl }}/daws-and-tools" class="btn btn-outline-white btn-lg">DAWs/Tools &nbsp; <i class="fas fa-desktop"></i></a>
+										<a href="{{ site.baseurl }}/presets" class="btn btn-outline-white btn-lg">Presets &nbsp; <i class="fas fa-gamepad"></i></a>
+										<a href="{{ site.baseurl }}/communities" class="btn btn-outline-white btn-lg">Communities &nbsp; <i class="fas fa-users"></i></a>
+									</div>
+									<div class="landing-buttons justify-content-center align-items-center d-inline-block">
+										<a href="{{ site.baseurl }}/music" class="btn btn-outline-white btn-lg">Music &nbsp; <i class="fas fa-music"></i></a>
+										<a href="{{ site.baseurl }}/budget-gear" class="btn btn-outline-white btn-lg">Budget Gear &nbsp; <i class="fas fa-headphones-alt"></i></a>
+									</div>
+									<div class="landing-buttons justify-content-center align-items-center d-inline-block" style="margin-top: 2rem">
+										<a href="{{ site.baseurl }}/other-resources" class="btn btn-outline-white btn-lg" style="padding: .5rem">Other Resources &nbsp;<i class="fas fa-share-square"></i></a>
+									</div>
 								</div>
 							</div>
 							<!-- Content -->
@@ -83,23 +86,24 @@
 			Copyright &copy; The Music Plug
 			<script type="text/javascript">document.write(new Date().getFullYear());</script>
 		</div>
-		<div class="landing-footer-two">
-			<!--<a href="https://mm.tt/1149747060?t=7k9n1XAuhk" target="_blank" class="footer-link">Is it okay to pirate software? Join the brain map!</a>-->
-		</div>
 		<!--/.Footer-->
 		<!-- SCRIPTS -->
 		<!-- JQuery -->
 		<script type="text/javascript" src="landing-page/js/jquery-3.3.1.min.js"></script>
+		<!-- JQuery UI -->
+		<script type="text/javascript" src="landing-page/js/jquery-ui.min.js"></script>
 		<!-- Bootstrap tooltips -->
 		<script type="text/javascript" src="landing-page/js/popper.min.js"></script>
 		<!-- Bootstrap core JavaScript -->
 		<script type="text/javascript" src="landing-page/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
 		<script type="text/javascript" src="landing-page/js/mdb.min.js"></script>
+		<!-- Custom JavaScript -->
+		<script type="text/javascript" src="landing-page/js/custom.js"></script>
 		<!-- Initializations -->
 		<script type="text/javascript">
-		// Animations initialization
-		new WOW().init();
-	</script>
+			// Animations initialization
+			new WOW().init();
+		</script>
 </body>
 </html>
